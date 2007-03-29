@@ -19,11 +19,12 @@ URL:		http://search.cpan.org/dist/DBIx-Class-TimeStamp/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl(DBIx::Class)
-BuildRequires:	perl(DateTime)
-BuildRequires:	perl(Class::Accessor::Grouped)
-BuildRequires:	perl(DateTime::Format::MySQL)
-BuildRequires:	perl(Time::Warp)
+BuildRequires:	perl-Class-Accessor-Grouped
+BuildRequires:	perl-DateTime
+BuildRequires:	perl-DateTime-Format-MySQL
+BuildRequires:	perl-DBIx-Class
+BuildRequires:	perl-SQL-Translator-DBIx-Class
+BuildRequires:	perl-Time-Warp
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
