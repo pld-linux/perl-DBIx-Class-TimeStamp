@@ -8,13 +8,13 @@
 Summary:	DBIx::Class::TimeStamp - automatically set timestamp fields in a table
 Summary(pl.UTF-8):	DBIx::Class::TimeStamp - automatyczne ustawianie pól znaczników czasu w tabeli
 Name:		perl-DBIx-Class-TimeStamp
-Version:	0.02
+Version:	0.05
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/J/JS/JSHIRLEY/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	7adea1a2b8dd9fb999a5b35c287ceba4
+# Source0-md5:	7a8aa5a7adaed53af216bc31f44d6e47
 URL:		http://search.cpan.org/dist/DBIx-Class-TimeStamp/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
